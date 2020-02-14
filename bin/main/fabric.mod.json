@@ -19,6 +19,9 @@
 
     "environment": "*",
     "entrypoints": {
+        "cotton-client-commands": [
+            "gg.founders.seed_tools.FooCommand"
+        ],
         "main": [
             "gg.founders.seed_tools.SeedTools"
         ]
