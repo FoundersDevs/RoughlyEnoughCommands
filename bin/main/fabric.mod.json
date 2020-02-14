@@ -1,0 +1,38 @@
+{
+    "schemaVersion": 1,
+    "id": "seed_tools",
+    "version": "${version}",
+
+    "name": "Seed Tools",
+    "description": "A client sided mod that let's you use the seed to locate structures and biomes in game.",
+    "authors": [
+        "shupik",
+        "??Xelada??"
+    ],
+    "contact": {
+        "homepage": "https://founders.gg",
+        "sources": "https://github.com/shupik123/seed-tools"
+    },
+
+    "license": "MIT",
+    "icon": "assets/seed_tools/icon.png",
+
+    "environment": "*",
+    "entrypoints": {
+        "main": [
+            "gg.founders.seed_tools.SeedTools"
+        ]
+    },
+    "mixins": [
+
+    ],
+
+    "depends": {
+        "fabricloader": ">=0.7.2",
+        "fabric": "*",
+        "minecraft": "1.15.x"
+    },
+    "suggests": {
+        "flamingo": "*"
+    }
+}
