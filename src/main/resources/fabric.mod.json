@@ -1,13 +1,13 @@
 {
     "schemaVersion": 1,
-    "id": "seed_tools",
+    "id": "roughly_enough_commands",
     "version": "${version}",
 
-    "name": "Seed Tools",
-    "description": "A client sided mod that let's you use the seed to locate structures and biomes in game.",
+    "name": "Roughly Enough Commands",
+    "description": "Not exactly enough commands but close to it.",
     "authors": [
         "shupik",
-        "??Xelada??"
+        "Xelada"
     ],
     "contact": {
         "homepage": "https://founders.gg",
@@ -15,15 +15,15 @@
     },
 
     "license": "MIT",
-    "icon": "assets/seed_tools/icon.png",
+    "icon": "assets/roughly_enough_commands/icon.png",
 
     "environment": "*",
     "entrypoints": {
         "cotton-client-commands": [
-            "gg.founders.seed_tools.FooCommand"
+            "gg.founders.roughly_enough_commands.FooCommand"
         ],
         "main": [
-            "gg.founders.seed_tools.SeedTools"
+            "gg.founders.roughly_enough_commands.RoughlyEnoughCommands"
         ]
     },
     "mixins": [

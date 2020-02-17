@@ -1,4 +1,4 @@
-package gg.founders.seed_tools;
+package gg.founders.roughly_enough_commands;
 
 import com.mojang.brigadier.CommandDispatcher;
 import io.github.cottonmc.clientcommands.*;
