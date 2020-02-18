@@ -20,7 +20,7 @@
     "environment": "*",
     "entrypoints": {
         "cotton-client-commands": [
-            "gg.founders.roughly_enough_commands.FooCommand"
+            "gg.founders.roughly_enough_commands.CoordConverter"
         ],
         "main": [
             "gg.founders.roughly_enough_commands.RoughlyEnoughCommands"
